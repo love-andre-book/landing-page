@@ -1,0 +1,19 @@
+.header-logo {
+    width: 80px;
+    min-height: auto;
+}
+
+.header {
+    background-color: #1f2937;
+} 
+
+.hero-image {
+    text-align: right;
+    width: 400px;
+    height: auto;
+}
+
+.player {
+    height: 200px;
+    width: 200px;
+}
