@@ -20,9 +20,6 @@ body {
 .container {
     height: 60%;
     width: 60%;
-    border-style: dotted;
-    border-color: red;
-    border-width: 2px;
 }
 
 .header,
@@ -35,7 +32,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 
 .sub-text {
     width: 410px;
@@ -96,6 +92,13 @@ button {
     width: 110px;
 }
 
+button:hover {
+    border: solid;
+    border-color: white;
+    font-size: 100%;
+    border-width: 2px;
+}
+
 h1 {
     font-size: 48px;
     color: #f9faf8;
@@ -103,6 +106,11 @@ h1 {
     margin-top: 0;
     margin-bottom: 6px;
     width: 410px;
+}
+
+.newsletter-text h1 {
+    font-size: 24px;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -116,6 +124,11 @@ h3 {
     text-align: right;
     margin-top: 0px;
     padding-right: 40px;
+}
+
+p {
+    color: #f9faf8;
+    width: 500px;
 }
 
 .quote {
@@ -140,7 +153,7 @@ h3 {
     height: 40%;
     border-radius: 8px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
