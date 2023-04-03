@@ -36,6 +36,11 @@ body {
     justify-content: space-between;
 }
 
+
+.sub-text {
+    width: 410px;
+}
+
 .sub-text,
 a {
     font-size: 18px;
@@ -97,10 +102,24 @@ h1 {
     font-weight: 800;
     margin-top: 0;
     margin-bottom: 6px;
+    width: 410px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800px;
+    text-align: center;
+}
+
+h3 {
+    font-size: smaller;
+    text-align: right;
+    margin-top: 0px;
+    padding-right: 40px;
 }
 
 .quote {
-    height: 200px;
+    height: 300px;
     background-color: #e5e7eb;
 }
 
@@ -108,7 +127,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 80px 0px;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .bottom {
@@ -117,8 +137,11 @@ h1 {
 
 .bottom .container {
     background-color: #3882f6;
-    height: 60%;
-    width: 60%;
+    height: 40%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .bottom .container button {
@@ -141,9 +164,23 @@ h1 {
     border: 2px solid red;
 }
 
+.player:hover {
+    border: 4px solid red;
+}
+
 a {
     text-decoration: none;
     font-weight: 100px;
+    opacity: 0.5;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
 }
 
 .card {
@@ -153,12 +190,17 @@ a {
 
 .card .text {
     max-height: 100px;
+    color: gray;
     overflow: hidden;
 }
 
 .card div {
     text-align: center;
     overflow: hidden;
+}
+
+.newsletter-text {
+    width: 300px;
 }
 
 .footer {
