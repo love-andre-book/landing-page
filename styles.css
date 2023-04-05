@@ -18,6 +18,8 @@ body {
 }
 
 .container {
+    border-style: dotted;
+    border-color: red;
     height: 60%;
     width: 60%;
 }
